@@ -11,7 +11,9 @@ const app = express();
 connectDB();
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: ['https://prep-saa-s.vercel.app', 'http://localhost:3000']
+}));
 app.use(express.json());
 
 // Routes
