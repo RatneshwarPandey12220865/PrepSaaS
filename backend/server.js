@@ -11,7 +11,9 @@ const app = express();
 connectDB();
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: ['https://prep-saa-s.vercel.app', 'http://localhost:3000']
+}));
 app.use(express.json());
 
 // Routes
@@ -23,7 +25,7 @@ app.use('/api/test-results', require('./routes/testResults'));
 app.use('/api/resumes', require('./routes/resumes'));
 app.use('/api/courses', require('./routes/courses'));
 
-const PORT = process.env.PORT || 8001;
+const PORT = process.env.PORT || 10000;
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 

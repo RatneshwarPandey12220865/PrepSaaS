@@ -1,4 +1,26 @@
-# PrepSaaS - Complete Installation Guide
+# PrepSaaS - Interview Preparation Platform
+
+## 🚀 Live Demo
+- **Frontend**: https://prep-saa-s.vercel.app
+- **Backend API**: https://prepsaas.onrender.com
+
+## 🛠️ Tech Stack
+- **Frontend**: React, Tailwind CSS, Axios
+- **Backend**: Node.js, Express, MongoDB
+- **AI**: Google Gemini API
+- **Deployment**: Vercel (Frontend) + Render (Backend)
+
+## ✨ Features
+- User Authentication (JWT)
+- Practice Rounds (Aptitude, Coding, HR)
+- AI-powered Resume Analysis
+- Performance Tracking
+- Course Curriculum
+- Modern Glass-morphism UI
+
+---
+
+# Complete Installation Guide
 
 ## Prerequisites
 - Node.js (v16 or higher)
